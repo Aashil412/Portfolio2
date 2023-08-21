@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+        <div class="container-fluid">
+          <a class="navbar-brand container-fluid" href="#">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-tabs ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/Aashil412/YelpCamp"
+                      target="_blank"
+                      >Yelp Camp</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/Aashil412/Frogger"
+                      target="_blank"
+                      >Frogger</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://bridges-games.herokuapp.com/username/AashilAhmad"
+                      >BRIDGESuncc</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sites">Sites</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid my-5">
+      <section id="aboutBorder" class="mb-4">
+        <h1>About Me</h1>
+        <div id="about">
+          <p>
+            I am a first-generation undergraduate student majoring in Computer
+            Science at the <strong>College of Staten Island.</strong> I aspire
+            to be a Software Engineer.
+          </p>
+          <img src="./Aashil_Ahmad_Headshot.jpg" alt="" id="hs" />
+        </div>
+      </section>
+      <section id="projects">
+        <h1>
+          Projects -
+          <a href="https://github.com/Aashil412" target="_blank">Github</a>
+        </h1>
+
+        <div>
+          <h5>
+            <a href="https://github.com/Aashil412/YelpCamp" target="_blank">YelpCamp</a> -
+            <i
+              >Node.js, Express.js, MongoDB, Mongoose, EJS, HTML5, CSS3,
+              Bootstrap</i
+            >
+          </h5>
+          <ul>
+            <li>
+              Developed a Yelp style full-stack web application where users
+              create, review, and maintain data for camping grounds throughout
+              the United States leveraging Node.js, Express.js, MongoDB, and
+              Bootstrap by integrating real-time features such as live chat and
+              notifications, ensuring an interactive and engaging user
+              experience
+            </li>
+            <li>
+              Employed RESTful API design principles, MVC patterns, and
+              implemented CRUD operations to facilitate seamless communication
+              between the front-end and back-end, ensuring efficient data
+              retrieval and manipulation
+            </li>
+            <li>
+              Implemented MapBox API with geolocation services, highly secure
+              user authentication, and authorization features
+            </li>
+          </ul>
+          <img src="./Screenshot 2023-07-29 191033.png" alt="" id="YelpCamp" />
+        </div>
+        <div>
+          <h5 id="Frogger">
+            <a href="https://github.com/Aashil412/Frogger" target="_blank">Frogger</a> -
+            <i>Java, JavaFX, GUI’s CSS, Serializable</i>
+          </h5>
+          <ul>
+            <li>
+              Led the development of an immersive Frogger arcade game,
+              implementing an intuitive graphical user interface (GUI) using
+              JavaFX, CSS, Serializable ensuring smooth navigation and immersive
+              gameplay
+            </li>
+            <li>
+              Skillfully incorporated essential game mechanics such as frog
+              movement, obstacle detection, Serializable interface to enable
+              seamless saving and loading of game states, resulting in a
+              captivating and challenging gaming experience
+            </li>
+          </ul>
+          <img src="./FroggerStartingScreen.png" alt="" />
+        </div>
+        <div>
+          <h5>
+            <a href="https://bridges-games.herokuapp.com/username/AashilAhmad" target="_blank"
+              >BRIDGESuncc
+            </a>
+            - <i>C++</i>
+          </h5>
+          <ul>
+            <li>
+              Demonstrated expertise in data visualization and API integration
+              by employing APIs to visualize data from multiple repositories and
+              using visual data structures to display information like USGS
+              earthquake data using C++
+            </li>
+            <li>
+              Deployed a variety of data structure projects, notably a
+              captivating snake game through BRIDGESuncc, via Heroku
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="education" class="mb-4">
+        <h1>Education</h1>
+        <h3>College of Staten Island</h3>
+        <h5>
+          Bachelor of Science in Computer Science, GPA: 3.85 - Expected May 2025
+        </h5>
+        <h3>CodePath - Technical Interview Prep, Software Engineering</h3>
+        <p></p>
+      </section>
+      <section id="experience" class="mb-4">
+        <h1>Professional Experience</h1>
+        <h3>DevOps Intern - Cyber Protection Consulting Services Inc.</h3>
+        <ul>
+          <li>
+            Worked on a website with 8 interns utilizing HTML, CSS, and
+            JavaScript in designing a concept for future intern website,
+            adopting best practices through iterative testing to ensure browser
+            and device compatibility
+          </li>
+          <li>
+            Facilitated collaboration between 8 interns in DEV-Ops & CREATIVE
+            positions by emphasizing clear communication, cross-functional
+            teamwork, and documentation to build a webpage with strong, tested
+            APIs utilizing GitLab & AWS
+          </li>
+          <li>
+            Consulted 3 clients on innovative solutions and focusing on
+            maximizing reliability and scalability of their applications,
+            resulting in a 15% increase in customer satisfaction
+          </li>
+          <li>
+            Researched into target audiences and existing websites, assisted
+            with mock personas to help inform design decisions
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <p>
+          <b>Programming Languages:</b> C, C++, C#, Java, Python, HTML5, CSS3,
+          JavaScript, Assembly, MATLAB, Verilog
+          <br />
+          <b>Tools and Frameworks:</b> React, Node.js, Express.js, MongoDB, Ejs,
+          Tailwind, AWS, Bootstrap, Semantic UI, Bulma, Git, GitHub, GitLab,
+          JavaFX, Visual Studio, VS Code, Replit, Eclipse, Slack, Microsoft
+          Office, UML, Figma, Postman
+        </p>
+      </section>
+      <section id="sites" class="mb-5">
+        <h1>Sites</h1>
+        <p>
+          I recommend using Coursera for free courses along with Udemy for paid
+          course. Both sites offer a variety of different topics and knowledge in Computer
+          Science.
+        </p>
+      </section>
+    </main>
+    <footer class="card-footer bg-dark text-white text-center py-3">
+      <p>&copy; 2023 Aashil Ahmad</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
